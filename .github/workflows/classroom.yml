@@ -52,7 +52,7 @@ jobs:
 #          ./scripts/wait-script.sh
 
           echo "Checking Docker container logs for gateway..."
-          docker compose logs gateway  # 立即打印日志
+          docker compose logs gateway
         env:
           WAIT_PORTS: 8080,8070,8060,8050
 
