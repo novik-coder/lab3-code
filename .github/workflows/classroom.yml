@@ -50,6 +50,7 @@ jobs:
           sleep 60
           # echo "Starting wait script..."
           # ./scripts/wait-script.sh
+          docker-compose logs gateway
         env:
           WAIT_PORTS: 8080,8070,8060,8050
       - name: Check Database Status
