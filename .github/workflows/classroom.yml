@@ -42,19 +42,16 @@ jobs:
         run: |
           chmod +x ./scripts/wait-script.sh
           chmod +x ./scripts/wait-for.sh
+
       - name: Run containers
         timeout-minutes: 10
         run: |
           docker compose up -d
           sleep 60
-#          echo "Starting wait script..."
-#          ./scripts/wait-script.sh
-
-          echo "Checking Docker container logs for gateway..."
-          docker compose logs gateway
+          # echo "Starting wait script..."
+          # ./scripts/wait-script.sh
         env:
           WAIT_PORTS: 8080,8070,8060,8050
-
       - name: Check Database Status
         run: |
           # 列出所有数据库
