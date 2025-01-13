@@ -1,6 +1,11 @@
 spring:
   application:
     name: reservation-service
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
   datasource:
     url: jdbc:postgresql://postgres:5432/reservations
     username: program
