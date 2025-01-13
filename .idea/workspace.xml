@@ -39,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/project/study/microservices/rating-service",
+    "last_opened_file_path": "D:/project/study/microservices",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,11 +52,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\study\microservices" />
+      <recent name="D:\project\study\microservices\gateway-service" />
       <recent name="D:\project\study\microservices\common-servcie" />
       <recent name="D:\project\study\microservices\discovery-service" />
       <recent name="D:\project\study\microservices\rating-service" />
-      <recent name="D:\project\study\microservices\reservation-service" />
-      <recent name="D:\project\study\microservices\library-service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -133,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736782533457</updated>
-      <workItem from="1736782537355" duration="1325000" />
+      <workItem from="1736782537355" duration="1998000" />
     </task>
     <servers />
   </component>
