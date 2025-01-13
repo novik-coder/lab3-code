@@ -47,7 +47,7 @@ jobs:
         timeout-minutes: 10
         run: |
           docker compose up -d
-          sleep 30
+          sleep 60
           echo "Starting wait script..."
           ./scripts/wait-script.sh
         env:

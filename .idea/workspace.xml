@@ -36,8 +36,14 @@
     "Maven.spring-microservices [clean].executor": "Run",
     "Maven.spring-microservices [install].executor": "Run",
     "Maven.spring-microservices [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.GateWayApplication.executor": "Run",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/project/study/microservices",
     "node.js.detected.package.eslint": "true",
@@ -110,13 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReservationServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="rating-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.ReservationServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReservationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="reservation-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.study.ReservationServiceApplication" />
@@ -133,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736782533457</updated>
-      <workItem from="1736782537355" duration="2358000" />
+      <workItem from="1736782537355" duration="3068000" />
     </task>
     <servers />
   </component>
